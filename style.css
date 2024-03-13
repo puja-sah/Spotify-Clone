@@ -1,0 +1,395 @@
+body {
+  font-family: "Montserrat ", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: beige;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  background-color: black;
+  width: 350px;
+  height: 100vh;
+  border-radius: 1rem;
+}
+
+.sidebar1 {
+  background-color: #222020;
+  border-radius: 10px;
+  height: 8rem;
+  width: 20rem;
+  padding: 10px;
+  margin: 10px;
+}
+.sidebar1 img {
+  width: 4rem;
+  margin-left: 25px;
+}
+.sidebar1 h2 i {
+  width: 1rem;
+  margin-left: 15px;
+  padding: 8px;
+}
+.sidebar1 h2 {
+  font-size: 1rem;
+}
+.sidebar1:hover {
+  background-color: #a4a0a05c;
+}
+.sidebar1 h2:hover {
+  text-decoration: underline;
+}
+
+/*  sidebar 2 */
+.sidebar2 {
+  border-radius: 10px;
+  /* height: 8rem;
+  width: 20rem; */
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar-nav {
+  font-size: 12px;
+  background-color: black;
+  height: 2rem;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.lib {
+  margin-right: 15px;
+}
+.sidebar2 h2:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+.plus:hover {
+  opacity: 1;
+}
+.sidebar2 i {
+  width: 0.85rem;
+  padding: 1rem;
+}
+.plus {
+  font-size: 20px;
+}
+.library {
+  background-color: #222020;
+  border-radius: 15px;
+  height: 8rem;
+  width: 20rem;
+  padding: 5px;
+  margin: 10px;
+}
+.library:hover {
+  background-color: #5c585882;
+}
+.btns {
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.btns:hover {
+  background-color: rgb(240, 230, 230);
+  font-size: 16px;
+}
+.library h3 {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.p {
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.podcast {
+  background-color: #222020;
+  height: 3rem;
+  width: 20rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.podcast:hover {
+  background-color: #655e5e6a;
+}
+
+.side-foot {
+  display: flex;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.side-foot p{
+  padding: 15px;
+  opacity: 0.8;
+}
+.side-foot2{
+  display: flex;
+}
+.side-foot2 p{
+  margin-left: 2rem;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.p{
+  margin-left: 2rem;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.btn-f{                    /* ============================================================================================= */
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 3rem;
+  margin-top: 20px;
+}
+.btn-f button:hover{
+  font-size: 20px;
+  background-color: grey;
+}
+
+/*  navbar main */
+.navbar {
+  height: 5rem;
+  width: 100rem;
+  background-color: black;
+  display: flex;
+}
+.navbar h2 {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  right: 12rem;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.navbar h2:hover {
+  opacity: 1;
+}
+.log-btn {
+  color: black;
+  font-size: 25px;
+  /* margin: 10px; */
+  padding: 10px;
+  position: absolute;
+  right: 5rem;
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: white;
+}
+.log-btn:hover {
+  font-size: 26px;
+  background-color: #efe7e7;
+}
+.navbar i {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 8px;
+}
+/*  mid card  */
+.mid-card {
+  background-color: #282828;
+  margin-top: -5px;
+  height: 100vh;
+  width: 100%;
+}
+.mid1 {
+  display: flex;
+  /* background-color: black; */
+}
+.mid1:hover {
+  text-decoration: underline;
+}
+.mid1 h4 {
+  position: absolute;
+  right: 4rem;
+  top: 3rem;
+  opacity: 0.8;
+}
+.mid1 h4:hover {
+  text-decoration: underline;
+}
+.mid1 h2 {
+  margin-left: 15px;
+}
+/* card content  */
+.card-content {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  /* background-color: black; */
+}
+.cardA {
+  height: 250px;
+  width: 180px;
+  background-color: rgb(37, 35, 35);
+  padding: 20px;
+  margin: 25px;
+  margin-top: -2rem;
+}
+.cardA:hover {
+  background-color: #433f3f;
+  /* background-image: url('./photo/playbtn.jpg');
+    height: 30px;
+    width: 40px;  */
+}
+.cardA img {
+  height: 170px;
+  width: 170px;
+  border-radius: 80px;
+  margin: 10px;
+}
+.cardA h2 {
+  font-size: 15px;
+  margin-top: -2px;
+  text-align: center;
+}
+.cardA p {
+  font-size: 15px;
+  margin-top: -8px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.cardB {
+  height: 250px;
+  width: 180px;
+  background-color: rgb(37, 35, 35);
+  padding: 20px;
+  margin: 25px;
+  margin-top: -2rem;
+}
+.cardB:hover {
+  background-color: #433f3f;
+}
+.cardB img {
+  height: 170px;
+  width: 170px;
+  border-radius: 80px;
+  margin: 10px;
+}
+.cardB h2 {
+  font-size: 15px;
+  margin-top: -2px;
+  text-align: center;
+}
+.cardB p {
+  font-size: 15px;
+  margin-top: -8px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.cardC {
+  height: 250px;
+  width: 180px;
+  background-color: rgb(37, 35, 35);
+  padding: 20px;
+  margin: 25px;
+  margin-top: -2rem;
+}
+.cardC:hover {
+  background-color: #433f3f;
+}
+.cardC img {
+  height: 170px;
+  width: 170px;
+  border-radius: 80px;
+  margin: 10px;
+}
+.cardC h2 {
+  font-size: 15px;
+  margin-top: -2px;
+  text-align: center;
+}
+.cardC p {
+  font-size: 15px;
+  margin-top: -8px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.cardD {
+  height: 250px;
+  width: 180px;
+  background-color: rgb(37, 35, 35);
+  padding: 20px;
+  margin: 25px;
+  margin-top: -2rem;
+}
+.cardD:hover {
+  background-color: #433f3f;
+}
+.cardD img {
+  height: 170px;
+  width: 170px;
+  border-radius: 80px;
+  margin: 10px;
+}
+.cardD h2 {
+  font-size: 15px;
+  margin-top: -2px;
+  text-align: center;
+}
+.cardD p {
+  font-size: 15px;
+  margin-top: -8px;
+  text-align: center;
+  opacity: 0.8;
+}
+.last-content{
+  display: flex;
+  /* background-color: black; */
+}
+.last-content1{
+  margin-left: 5rem;
+  padding: -2px;
+}
+.last-content1 p{
+opacity: 0.8;
+}
+.last-content2{
+  margin-left: 8rem;
+  padding: -2px;
+}
+.last-content2 p{
+  opacity: 0.8;
+  }
+.last-content3{
+  margin-left: 8rem;
+  padding: -2px;
+}
+.last-content3 p{
+  opacity: 0.8;
+  }
+.logo{
+  display: flex;
+  font-size: 20px;
+  margin-top: -15rem;
+  margin-left: 57rem;
+}
+.logo i{
+  padding: 15px;
+  margin: 10px;
+  background-color: #48454583;
+  border-radius: 20px;
+}
+.logo i:hover{
+  background-color: rgb(120, 115, 115);
+  border-radius: 20px;
+}
+.footer{
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+}
